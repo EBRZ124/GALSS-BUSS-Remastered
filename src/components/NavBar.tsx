@@ -22,16 +22,6 @@ function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/rent">
-                  Autobusu noma
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/contacts">
-                  Kontakti
-                </NavLink>
-              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -54,6 +44,16 @@ function NavBar() {
                     </NavLink>
                   </li>
                 </ul>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/rent">
+                  Autobusu noma
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contacts">
+                  Kontakti
+                </NavLink>
               </li>
             </ul>
           </div>
