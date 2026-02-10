@@ -4,22 +4,50 @@ body{
   background-color: #1E1E2E;
   color: #e1e8ff;
 }
-
 p, h1, h2, h3, h4, h5, a, small{
   color: #e1e8ff;
 }
 
+/* ---------NAV BAR---------*/
 .navbar-brand, 
 .nav-link,
-.nav-link.active,
 .nav-item{
   color: #e1e8ff;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus {
+  color: #c1cffe;
+  background-color: transparent;
 }
 
 .navbar-toggler-icon {
   filter: invert(1);
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.dropdown-menu {
+  background-color: #181824;
+  border-color: rgb(50, 50, 79);
+}
+
+.dropdown-item {
+  color: #e1e8ff;
+}
+
+.dropdown-item:hover {
+  background-color: #1E1E2E;
+  color: #c1cffe;
+}
+/* ---------BUS TIME LIST---------*/
 .list-group {
   max-width: 500px;
   margin-left: auto;

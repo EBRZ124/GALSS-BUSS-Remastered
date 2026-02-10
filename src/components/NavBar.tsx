@@ -22,7 +22,7 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" href="#">
                   Autobusu noma
                 </a>
               </li>
@@ -42,11 +42,6 @@ function NavBar() {
                   Maršruti K6317
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
                   <li>
                     <a className="dropdown-item" href="#">
                       Salaspils - Rīga
