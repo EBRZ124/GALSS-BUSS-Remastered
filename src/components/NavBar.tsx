@@ -7,7 +7,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            GALS BUSS
+            GALSS BUSS
           </NavLink>
           <button
             className="navbar-toggler"

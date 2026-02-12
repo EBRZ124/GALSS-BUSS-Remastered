@@ -14,10 +14,10 @@ function SarakstsSalaspilsUzRigu() {
       setCurrentTime(formatted);
     };
 
-    updateTime(); // set immediately
+    updateTime();
     const interval = setInterval(updateTime, 1000);
 
-    return () => clearInterval(interval); // cleanup
+    return () => clearInterval(interval);
   }, []);
 
   const attiesanas_laiki_salaspils = [
